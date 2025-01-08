@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Counter Value Styles */
+.positive {
+    color: #28a745; /* Green for positive */
+}
+
+.negative {
+    color: #dc3545; /* Red for negative */
+}
+
+.neutral {
+    color: #6c757d; /* Gray for neutral (zero) */
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:active {
+    background-color: #004085; /* Even darker blue when pressed */
+    transform: scale(0.95);
+}
+
+button:disabled {
+    background-color: #d6d6d6; /* Disabled button background */
+    color: #999; /* Disabled button text color */
+    cursor: not-allowed;
+}
+
+/* Icon Styles */
+button svg {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    button svg {
+        font-size: 1rem;
+    }
+}
