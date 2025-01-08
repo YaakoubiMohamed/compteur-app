@@ -151,21 +151,10 @@ Démarrez le serveur de développement avec la commande :
 npm start
 ```
 
-L'application sera accessible à l'adresse : `http://localhost:3000`.
+L'application sera accessible à l'adresse : `http://localhost:3000` ou bien consulter version hébergé sur `https://compteur-app.vercel.app/`.
 
 ---
 
-## **Améliorations possibles**
-- Ajouter des animations plus complexes avec [Framer Motion](https://www.framer.com/motion/).
-- Ajouter un thème sombre.
-- Enregistrer les valeurs dans le stockage local pour conserver l'état après actualisation de la page.
-
----
-
-## **Capture d'écran**
-> *(Ajoutez une capture d'écran de l'application ici)*
-
----
 
 ## **Dépendances utilisées**
 - **React** : pour créer des composants.
